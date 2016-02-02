@@ -1,0 +1,21 @@
+
+body {
+	margin: 0;
+	background: #3f3f3f;
+	color: #dcdcdc;
+	font-family: "DejaVu Sans", sans-serif;
+	font-size: 90%;
+}
+
+#error {
+	padding: 100px; background: #3f3f3f;
+}
+
+#error h1 {
+	text-align: center;
+	margin: 200px auto;
+	font-family: "DejaVu Sans", sans-serif;
+	font-size: 200px; text-transform: uppercase;
+	color: #222;
+	text-shadow: 0px 4px 3px #666;
+}

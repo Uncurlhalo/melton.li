@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    src: url('/fonts/Roboto-Thin.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+	background: #3f3f3f;
+	color: #dcdcdc;
+	font-family: "DejaVu Sans", sans-serif;
+	font-size: 90%;
+}
+
+body.index {
+    margin: 12px;
+    font-size: 80%;
+}
+
+/* Links {{{ */
+a:link {
+    color: #dcdcdc;
+    text-decoration: none;
+}
+a:link,
+a:visited {
+	color: #A9D2E7;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	text-decoration: underline;
+}
+
+/* }}} */
+
+/* Headings {{{ */
+h1 {
+    margin: 24px 0 12px 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 3.2em;
+    font-weight: 300;
+}
+/* }}} */
+
+/* Navbar {{{ */
+#navbar {
+    display: block;
+    margin: 0;
+    padding: 8px;
+    background: #303030;
+    font-size: 0.9em;
+}
+
+#navbar li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li a {
+    color: #7f9f7f;
+}
+/* }}} */
+
+#wrapper {
+    margin: 12px;
+}
+
+#navbar,
+pre {
+	font-family: "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Consolas", "Lucida Sans Console", monospace;
+}
+
+pre .prompt {
+	color: #81f33f;
+}
+
+pre .prompt .paren {
+	color: #709080;
+	font-weight: bold;
+}
+
+pre .prompt .user {
+	color: #c3bf9f;
+	font-weight: bold;
+}
+
+span.shebang {
+	margin 0;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	color: #3c80b4;
+}
+span.ls {
+	color: #6694ff;
+}
