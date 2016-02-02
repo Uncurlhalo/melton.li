@@ -1,6 +1,6 @@
 ## Server Smokeping
 server {
-   listen      62.210.74.201:80;
+   listen      *:80;
    listen      [::]:80;
    server_name smokeping.melton.li smokeping.uncurlhalo.in;
    root /srv/http/smokeping;
