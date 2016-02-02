@@ -4,10 +4,10 @@ server {
    add_header  X-Frame-Options "DENY";
    expires     max;
    limit_req   zone=gulag burst=200 nodelay;
-   listen      80 default_server;
-   listen      [::]:80 default_server;
+   listen      *:80;
+   listen      [::]:80;
    root        /srv/http/uncurlhalo.in;
-   server_name localhost uncurlhalo.in;
+   server_name uncurlhalo.in;
    index index.html;
 
    ## Favicon file
