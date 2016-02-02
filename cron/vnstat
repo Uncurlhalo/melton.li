@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+# VnStats Updater
+# by TuxLyn {2013-10-07}
+#
+
+vninf='em1'
+vndir='/srv/http/stats'
+
+vnstati -s -nh -i $vninf -o $vndir/summary.png
+vnstati -h -nh -i $vninf -o $vndir/hourly.png
+vnstati -d -nh -i $vninf -o $vndir/daily.png
+vnstati -m -nh -i $vninf -o $vndir/monthly.png
+vnstati -t -nh -i $vninf -o $vndir/top10.png
+
+#EOF: vnstat
+
