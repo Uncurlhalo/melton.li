@@ -2,14 +2,12 @@
 server {
    add_header  Cache-Control "public";
    add_header  X-Frame-Options "DENY";
-   access_log  /var/log/nginx/access.log main buffer=32k;
-   error_log   /var/log/nginx/error.log error;
    expires     max;
    limit_req   zone=gulag burst=200 nodelay;
    listen      80 default_server;
    listen      [::]:80 default_server;
    root        /srv/http/uncurlhalo.in;
-   server_name uncurlhalo.in;
+   server_name localhost uncurlhalo.in;
    index index.html;
 
    ## Favicon file
