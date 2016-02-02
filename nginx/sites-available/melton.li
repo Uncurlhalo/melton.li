@@ -7,7 +7,7 @@ server {
    listen      80;
    listen      [::]:80;
    root        /srv/http/melton.li;
-   server_name localhost melton.li;
+   server_name melton.li;
    index index.html;
 
    ## Favicon file
