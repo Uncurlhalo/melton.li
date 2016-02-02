@@ -1,0 +1,8 @@
+## Server Stats landing
+server {
+   listen      62.210.74.201:80;
+   listen      [::]:80;
+   server_name stats.melton.li stats.uncurlhalo.in;
+   root /srv/http/stats;
+   index index.html;
+}
