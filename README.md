@@ -1,5 +1,5 @@
 # melton.li
-This is the HTML/CSS source for my personal website, as well as the server configs for it. Additionally I've included configs and scripts that I use for the 2 small utility pages I run on my domain (Smokeping and vnstat). This README outlines the required software needed to duplicate my website running at htpp://melton.li or http://uncurlhalo.in
+This is the HTML/CSS source for my personal website, as well as the server configs for it. Additionally I've included configs and scripts that I use for the 2 small utility pages I run on my domain (ntopng and vnstat). This README outlines the required software needed to duplicate my website running at htpp://melton.li or http://uncurlhalo.in
 
 ## Future Plans
 * I plan on adding a Let's Encrypt cert to my actual site, so I'll likely add configuration info about that here as well.
@@ -11,8 +11,8 @@ This is the HTML/CSS source for my personal website, as well as the server confi
 ### Vnstat
 vnstat, vnstati, cron, bash
 
-### Smokeping
-Please see http://oss.oetiker.ch/smokeping/doc/smokeping_install.en.html and https://wiki.archlinux.org/index.php/smokeping for information on packages and software need for smokeping itself. It's a bunch of perl stuff iirc.
+### ntopng
+(TODO): Need to setup on my actual server to see how it goes then add configs and info here
 
 ### Webserver
 nginx, fastcgi
